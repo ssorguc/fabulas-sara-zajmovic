@@ -1,0 +1,381 @@
+/*font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Mulish', sans-serif;
+*/
+
+/* Global ------------------------------------------------------------- */
+html,
+body {
+  background-color: #874831;
+  margin: 0;
+}
+
+/* Nav-bar ------------------------------------------------------------- */
+.nav-bar {
+  height: 100px;
+  background-color: #FFD8C5;
+  display: flex;
+  align-items: center;
+  font-family: 'Josefin Sans', sans-serif;
+  border-bottom: 1px solid #874831;
+
+}
+
+#logo {
+  height: 200px;
+  margin-right: 10px;
+}
+
+.prvi {
+  width: 15%;
+}
+
+.naslov {
+  color: #F49069;
+  width: 55%;
+  align-items: left;
+}
+
+.o-nama {
+  width: 15%;
+  text-align: right;
+}
+
+.price {
+  width: 15%;
+  text-align: center;
+}
+
+a {
+  color: #874831;
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #874831;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 900;
+}
+
+/* Dugmad ------------------------------------------------------------- */
+.unutar {
+  color: #FFD8C5;
+  font-family: 'Mulish', sans-serif;
+  font-size: 20px;
+  background-color: #F49069;
+  border-color: #FFD8C5;
+  border-radius: 10px;
+  border-width: 4px;
+  padding: 10px;
+  margin-top: 10%;
+  width: 90%;
+  height: 70px;
+  cursor: pointer;
+}
+
+.unutar:hover {
+  color: #FFD8C5;
+  font-family: 'Mulish', sans-serif;
+  font-size: 20px;
+  background-color: #F49069;
+  border-color: #FFD8C5;
+  border-radius: 10px;
+  border-width: 4px;
+  padding: 10px;
+  margin-top: 10%;
+  width: 90%;
+  height: 70px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 4px 0px;
+  cursor: pointer;
+}
+
+.unutarr {
+  color: #FFD8C5;
+  font-family: 'Mulish', sans-serif;
+  font-size: 20px;
+  background-color: #F49069;
+  border-color: #FFD8C5;
+  border-radius: 10px;
+  border-width: 4px;
+  padding: 10px;
+  margin-top: 5%;
+  width: 90%;
+  height: 70px;
+  cursor: pointer;
+}
+
+.unutarr:hover {
+  color: #FFD8C5;
+  font-family: 'Mulish', sans-serif;
+  font-size: 20px;
+  background-color: #F49069;
+  border-color: #FFD8C5;
+  border-radius: 10px;
+  border-width: 4px;
+  padding: 10px;
+  margin-top: 5%;
+  width: 90%;
+  height: 70px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 4px 0px;
+  cursor: pointer;
+}
+
+.unutar2 {
+  color: #FFD8C5;
+  font-family: 'Mulish', sans-serif;
+  font-size: 20px;
+  background-color: #F49069;
+  border-color: #FFD8C5;
+  border-radius: 10px;
+  border-width: 4px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-right: 30px;
+  width: 100%;
+  height: 50px;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  cursor: pointer;
+}
+
+.unutar2:hover {
+  color: #FFD8C5;
+  font-family: 'Mulish', sans-serif;
+  font-size: 20px;
+  background-color: #F49069;
+  border-color: #FFD8C5;
+  border-radius: 10px;
+  border-width: 4px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-right: 30px;
+  width: 100%;
+  height: 50px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 4px 0px;
+  cursor: pointer;
+}
+
+.otvori {
+  color: #F49069;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  background-color: #FFD8C5;
+  border-color: #F49069;
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 10px;
+  width: 300px;
+  height: 60px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.otvori:hover {
+  color: #F49069;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  background-color: #FFD8C5;
+  border-color: #F49069;
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 10px;
+  width: 300px;
+  height: 60px;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 4px 0px;
+  cursor: pointer;
+}
+
+.otvori2 {
+  color: #F49069;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  background-color: #FFD8C5;
+  border-color: #F49069;
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 10px;
+  width: 95%;
+  height: 60px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.otvori2:hover {
+  color: #F49069;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  background-color: #FFD8C5;
+  border-color: #F49069;
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 10px;
+  width: 95%;
+  height: 60px;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 4px 0px;
+  cursor: pointer;
+}
+
+/* Naslov-stranica ------------------------------------------------------------- */
+.pozadina {
+  background-color: #f9d876;
+  width: 80%;
+  height: 500px;
+  text-align: center;
+  padding-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 50px;
+}
+
+.naslov-price {
+  color: #874831;
+  font-size: 50px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: bolder;
+  animation-name: scale-up;
+  animation-duration: 1s;
+}
+
+.pisac {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #874831;
+  text-align: left;
+  margin-top: 235px;
+  margin-left: 40px;
+}
+
+/* Dvolisnica ------------------------------------------------------------- */
+.dvolisnica {
+  display: flex;
+}
+
+.stranica {
+  background-color: #f9d876;
+  width: 40%;
+  height: 510px;
+  text-align: center;
+  padding: 20px;
+  margin-left: 10%;
+  margin-top: 50px;
+  border: 1px solid #874831;
+}
+
+.stranica2 {
+  background-color: #f9d876;
+  width: 40%;
+  height: 510px;
+  text-align: center;
+  padding: 20px;
+  margin-right: 10%;
+  margin-top: 50px;
+  border: 1px solid #874831;
+}
+
+.tekst {
+  font-family: 'Mulish', sans-serif;
+  color: #cd6d47;
+  font-size: 18px;
+  text-align: justify;
+  margin: 3%;
+}
+
+.flex {
+  display: flex;
+}
+
+.pppp{
+  flex: 3;
+}
+.dddd{
+  flex: 2;
+}
+
+/* Slike ------------------------------------------------------------- */
+.prva-slika {
+  height: 70%;
+  width: 95%;
+  margin-top: 5%;
+  animation: fadeIn 2s;
+}
+
+.druga-slika {
+  margin-top: 5%;
+  margin-left: 30px;
+  height: 100%;
+  width: 85%;
+  animation-name: rotate;
+  animation-delay: 5s;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+.treca-slika {
+  margin-top: 3%;
+  height: 70%;
+  width: 95%;
+  animation-name: ono;
+  animation-duration: 0.45s;
+  animation-timing-function: ease-in-out;
+}
+
+.cetvrta-slika {
+  margin-top: 3%;
+  height: 70%;
+  width: 95%;
+  animation-name: ono;
+  animation-duration: 0.45s;
+  animation-timing-function: ease-in-out;
+}
+
+.peta-slika {
+  margin-top: 3%;
+  height: 50%;
+  width: 95%;
+  animation-name: ono;
+  animation-duration: 0.45s;
+  animation-timing-function: ease-in-out;
+}
+
+.sesta2-slika {
+  margin-top: 3%;
+  height: 70%;
+  width: 95%;
+  animation: slide 0.5s 
+}
+
+.sesta1-slika {
+  margin-top: 3%;
+  height: 70%;
+  width: 95%;
+  animation: slide 0.5s 
+}
+
+/* Animacije ------------------------------------------------------------- */
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@keyframes scale-up {
+  0% {transform: scale(0.5);}
+  100% {transform: scale(1);}
+}
+
+@keyframes rotate {
+  0%{transform: rotate(0);}
+  100%{transform: rotate(360deg);}
+}
+
+@keyframes ono {
+  0% {transform: translateZ(-800px) rotateX(90deg); opacity: 0;}
+  54% {transform: translateZ(-160px) rotateX(87deg); opacity: 1;}
+  100% {transform: translateZ(0) rotateX(0);}
+}
+
+@keyframes slide {
+  0% {transform: translateY(-20px);}
+  100% {transform: translateY(0);}
+}

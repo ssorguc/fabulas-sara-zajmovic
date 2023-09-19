@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Fabulas</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="nav-bar">
+    <div class="prvi">
+      <img src="assets/books.png" id="logo">
+    </div>
+    <div class="naslov">
+      <h2>Fabulas</h2>
+    </div>
+    <div class="o-nama">
+      <a href="onama.html">O nama</a>
+    </div>
+    <div class="price">
+      <a href="svePrice.html">Pregledaj sve priče</a>
+    </div>
+  </div>
+
+
+  <div class="pretrazi">
+    <img src="assets/smeda2.jpg" class="slika">
+    <div class="search">
+      <h1>Pretražite interaktivne priče</h1>
+      <input id="searchbar" type="text" placeholder="Pretraži" onkeyup="pretrazi(this.value)">
+      <br>
+      <div id="rezultat"></div>
+    </div>
+  </div>
+
+
+  <div>
+    <h2 class="podnaslov">Priče</h2>
+    <div class="linija"></div>
+  </div>
+
+<div class="skup">
+  <div class="kartica">
+    <div>
+      <img src="assets/thumbnai.jpg" class="thumbnail">
+    </div>
+    <div>
+      <h3 class="naslov-price">3 želje</h3>
+      <p class="opis-price">Dječak pronalazi ibrik sa duhom koji mu ispunjava 3 želje</p>
+      <button class="otvori" onclick="location.href='prica1/trizelje.html'">Otvori priču</button>
+    </div>
+  </div>
+  
+  <div class="kartica">
+    <div>
+      <img src="assets/thumbnail2.jpg" class="thumbnail">
+    </div>
+    <div>
+      <h3 class="naslov-price">Senad i Senada</h3>
+      <p class="opis-price">Otac pokusava da napusti svoju djecu</p>
+      <button class="otvori" onclick="location.href='prica2/dragani.html'">Otvori priču</button>
+    </div>
+  </div>
+</div>
+  
+  <script src="app.js"></script>
+</body>
+
+</html>

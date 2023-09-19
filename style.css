@@ -1,0 +1,242 @@
+/*font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Mulish', sans-serif;
+*/
+
+/* Global ------------------------------------------------------------- */
+html,
+body {
+  background: #f1bf52;
+  background: -webkit-linear-gradient(to right, #f9d876, #f1bf52);
+  background: linear-gradient(to right, #f9d876, #f1bf52);
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+  font-family: 'Mulish', sans-serif;
+}
+
+/* Nav-bar ------------------------------------------------------------- */
+.nav-bar {
+  height: 100px;
+  background-color: #FFD8C5;
+  display: flex;
+  align-items: center;
+  font-family: 'Josefin Sans', sans-serif;
+  border-bottom: 1px solid #874831;
+
+}
+
+#logo {
+  height: 200px;
+  margin-right: 10px;
+}
+
+.prvi {
+  width: 15%;
+}
+
+.naslov {
+  color: #F49069;
+  width: 55%;
+  align-items: left;
+}
+
+.o-nama {
+  width: 15%;
+  text-align: right;
+}
+
+.price {
+  width: 15%;
+  text-align: center;
+}
+
+a {
+  color: #874831;
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #874831;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 900;
+}
+
+/* Section-1 ------------------------------------------------------------- */
+.pretrazi {
+  position: relative;
+  width: 100%;
+}
+.pretrazi .search {
+  text-align: center;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #FFD8C5;
+  position: absolute;
+  width: 100%;
+  top: 40px;
+  padding: 20px;
+}
+
+
+#searchbar {
+  width: 500px;
+  background-color: #FFD8C5;
+  border: 1px solid #874831;
+  border-radius: 10px;
+  height: 40px;
+  font-family: 'Mulish', sans-serif;
+  color: #874831;
+  padding-left: 10px;
+}
+
+/* Section-2 ------------------------------------------------------------- */
+.podnaslov {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #874831;
+  margin-left: 20px;
+}
+
+.linija {
+  height: 2px;
+  width: 100%;
+  background-color: #874831;
+}
+
+
+/* Kartica ------------------------------------------------------------- */
+.skup {
+  display: flex;
+}
+
+.kartica {
+  display: flex;
+  background-color: #F49069;
+  border-radius: 20px;
+  border: 2px solid #874831;
+  width: 500px;
+  height: 120px;
+  padding: 20px;
+  margin: 70px;
+}
+
+.kartica-center {
+  display: flex;
+  background-color: #F49069;
+  border-radius: 20px;
+  text-align: left;
+  border: 2px solid #874831;
+  height: 120px;
+  width: 480px;
+  padding: 20px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.otvori {
+  color: #F49069;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #FFD8C5;
+  border-color: #F49069;
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 10px;
+  margin-right: 20px;
+  width: 120px;
+  float: right;
+  cursor: pointer;
+}
+
+.otvori:hover {
+  color: #F49069;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #FFD8C5;
+  border-color: #F49069;
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 10px;
+  margin-right: 20px;
+  width: 120px;
+  float: right;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 4px 0px;
+  cursor: pointer;
+}
+
+.thumbnail {
+  height: 120px;
+  width: 120px;
+  border: 2px solid #874831;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+.naslov-price {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #f9d876;
+  margin-bottom: 2px;
+}
+
+.opis-price {
+  color: #874831;
+  font-family: 'Mulish', sans-serif;
+  margin-bottom: 10px;
+  margin-top: 2px;
+}
+
+/* O nama ------------------------------------------------------------- */
+.slika {
+  width: 100%;
+  opacity: 0.6;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.container .content {
+  position: absolute;
+  top: 40px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffefe6;
+  width: 100%;
+
+  
+}
+
+.onama-naslov {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  padding-left: 2%;
+}
+
+.onama-podnaslov {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-bottom: 0;
+  padding-left: 4%;
+}
+
+.onama-tekst {
+  font-family: 'Mulish', sans-serif;
+  margin-top: 0;
+  margin-bottom: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: justify;
+}
+
+.onama-tekstt {
+  font-family: 'Mulish', sans-serif;
+  margin-top: 0;
+  margin-bottom: 2%;
+  text-align: center;
+}
